@@ -1,0 +1,24 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+env/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Model and large data files
+*.h5
+*.keras
+*.pkl
+
+# Upload folders
+static/uploads/
+
+# Log files
+*.log
+
+# IDE settings
+.vscode/
