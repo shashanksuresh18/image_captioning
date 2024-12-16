@@ -1,3 +1,7 @@
+# Ignore all .pkl files
+*.pkl
+
+
 # Python cache
 __pycache__/
 *.pyc
@@ -26,3 +30,4 @@ static/uploads/
 .vscode/
 venv/
 venv/
+*.pkl
