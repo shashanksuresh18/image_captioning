@@ -1,33 +1,30 @@
-# Ignore all .pkl files
-*.pkl
-
-
-# Python cache
+# Ignore Python cache
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# Virtual environments
+# Ignore virtual environments
 venv/
 env/
 
-# Jupyter Notebook checkpoints
+# Ignore Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
-# Large files (if needed)
+# Ignore large model and data files
 *.h5
 *.keras
 *.pkl
 
-# Log files
+# Ignore log files
 *.log
 
-# Static uploads (example)
+# Ignore static upload folders
 static/uploads/
 
-# IDE settings
+# Ignore IDE settings
 .vscode/
-venv/
-venv/
-*.pkl
+
+# Ignore system files (optional, for Windows/macOS)
+.DS_Store
+Thumbs.db
