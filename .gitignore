@@ -1,3 +1,4 @@
+# Ignore Images folder
 Images/
 
 # Python cache
@@ -8,10 +9,10 @@ __pycache__/
 venv/
 env/
 
-# Notebook checkpoints
+# Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
-# Model and large data files
+# Large model and data files
 *.h5
 *.keras
 *.pkl
