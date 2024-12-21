@@ -11,15 +11,15 @@ env/
 # Ignore Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
-# Ignore large model and data files
+# Ignore large model and data files, except those tracked by Git LFS
 *.h5
-*.keras
+!*.keras
 *.pkl
 
 # Ignore log files
 *.log
 
-# Ignore static upload folders
+# Ignore static upload folders (if not needed)
 static/uploads/
 
 # Ignore IDE settings
@@ -28,4 +28,6 @@ static/uploads/
 # Ignore system files (optional, for Windows/macOS)
 .DS_Store
 Thumbs.db
+
+# Ignore deployment files (if not necessary)
 .vercel
