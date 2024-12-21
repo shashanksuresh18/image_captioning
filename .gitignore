@@ -28,3 +28,4 @@ static/uploads/
 # Ignore system files (optional, for Windows/macOS)
 .DS_Store
 Thumbs.db
+.vercel
